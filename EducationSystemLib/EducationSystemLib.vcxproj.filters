@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DataBases">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Repositoties">
+      <UniqueIdentifier>{968c1e4e-010f-4878-a966-2c68866c967b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CourseManagerService">
+      <UniqueIdentifier>{01f67e3d-676d-4e4a-b120-b59ab29908bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Types">
+      <UniqueIdentifier>{1596d5a2-d8eb-4117-b2a2-b2ffbfd6b83b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Types\Names">
+      <UniqueIdentifier>{0ac65a37-1b5a-46c8-bb7a-df9748c3595a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Types\ID">
+      <UniqueIdentifier>{d16bf1cb-82fe-4dce-9a33-a2dce4a10f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Types\Preview">
+      <UniqueIdentifier>{613b5859-5ebe-4daf-81ad-8a74ddd1f495}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StudentsId.hpp">
+      <Filter>Types\ID</Filter>
+    </ClInclude>
+    <ClInclude Include="TeachersId.hpp">
+      <Filter>Types\ID</Filter>
+    </ClInclude>
+    <ClInclude Include="CoursesId.hpp">
+      <Filter>Types\ID</Filter>
+    </ClInclude>
+    <ClInclude Include="IdConcept.hpp">
+      <Filter>Types\ID</Filter>
+    </ClInclude>
+    <ClInclude Include="IRepository.hpp">
+      <Filter>Repositoties</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentRepository.hpp">
+      <Filter>Repositoties</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentName.hpp">
+      <Filter>Types\Names</Filter>
+    </ClInclude>
+    <ClInclude Include="TeacherName.hpp">
+      <Filter>Types\Names</Filter>
+    </ClInclude>
+    <ClInclude Include="CoursesName.hpp">
+      <Filter>Types\Names</Filter>
+    </ClInclude>
+    <ClInclude Include="TeacherRepository.hpp">
+      <Filter>Repositoties</Filter>
+    </ClInclude>
+    <ClInclude Include="CoursesRepository.hpp">
+      <Filter>Repositoties</Filter>
+    </ClInclude>
+    <ClInclude Include="DB.hpp">
+      <Filter>DataBases</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseManager.hpp">
+      <Filter>CourseManagerService</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentPreview.hpp">
+      <Filter>Types\Preview</Filter>
+    </ClInclude>
+    <ClInclude Include="TeacherPreview.hpp">
+      <Filter>Types\Preview</Filter>
+    </ClInclude>
+    <ClInclude Include="CoursePreview.hpp">
+      <Filter>Types\Preview</Filter>
+    </ClInclude>
+    <ClInclude Include="outputoperators.hpp">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Column.hpp">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.hpp">
+      <Filter>Types</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Serializer">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Serializer\MembersSerializer">
+      <UniqueIdentifier>{c6ad701d-3948-4645-af92-29273062e9ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serializer\Parser">
+      <UniqueIdentifier>{04bc3949-fabc-4899-9a68-a0e58b6d17c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ISerializer.hpp">
+      <Filter>Serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialazerFabric.hpp">
+      <Filter>Serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentsDBSerializer.hpp">
+      <Filter>Serializer\MembersSerializer</Filter>
+    </ClInclude>
+    <ClInclude Include="TeachersDBSerializer.hpp">
+      <Filter>Serializer\MembersSerializer</Filter>
+    </ClInclude>
+    <ClInclude Include="CoursesDBSerializer.hpp">
+      <Filter>Serializer\MembersSerializer</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.hpp">
+      <Filter>Serializer\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="ParserDTO.hpp">
+      <Filter>Serializer\Parser</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

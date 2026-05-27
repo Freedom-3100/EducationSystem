@@ -1,0 +1,5 @@
+student 1 name Misha courses 100 101 102 
+teacher 10 name Petrov experience 10 courses 100 101 102 
+course 100 name Math teacher 10 students 1 
+course 101 name Russian teacher 10 students 1 
+course 102 name Geometry teacher 10 students 1 
